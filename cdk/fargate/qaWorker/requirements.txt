@@ -1,0 +1,8 @@
+Flask
+Flask-Cors
+boto3 
+langchain 
+transformers 
+chromadb
+cohere-sagemaker
+numpy
