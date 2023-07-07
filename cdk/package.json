@@ -22,7 +22,7 @@
   "dependencies": {
     "@aws-cdk/aws-cognito-identitypool-alpha": "^2.74.0-alpha.0",
     "@aws-cdk/lambda-layer-kubectl-v25": "^2.0.3",
-    "aws-cdk-lib": "2.74.0",
+    "aws-cdk-lib": "2.80.0",
     "cdk-nag": "^2.26.13",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"
