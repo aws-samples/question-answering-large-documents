@@ -413,7 +413,7 @@ export class CdkStack extends cdk.Stack {
       tier: ssm.ParameterTier.ADVANCED,
     });
     fargateTaskDefinition.addContainer('worker', {
-      image: ecs.ContainerImage.fromAsset('fargate/summarizationworker'),
+      image: ecs.ContainerImage.fromAsset('fargate/summarizationWorker'),
       logging: ecs.LogDrivers.awsLogs({ streamPrefix: 'summarization-log-group', logRetention: 30 }),
       secrets: { 
         endpoint: ecs.Secret.fromSsmParameter(endpointSumParam),
