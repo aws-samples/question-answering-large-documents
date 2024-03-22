@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@aws-amplify/ui-react": "^4.6.0",
-    "aws-amplify": "^5.3.18",
+    "aws-amplify": "^6.0.21",
     "aws-sdk": "^2.1360.0",
     "bootstrap": "^5.2.3",
     "react": "^17.0.2",
